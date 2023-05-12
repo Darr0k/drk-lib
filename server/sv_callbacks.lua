@@ -1,4 +1,4 @@
-function Triggercallback(name, source, cb, ...)
+function Functions.Triggercallback(name, source, cb, ...)
     if not Callbacks[name] then return end
     Callbacks[name](source, cb, ...)
 end
