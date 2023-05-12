@@ -6,7 +6,11 @@ description 'A Resources Helper By Darrk'
 version '1.0.0'
 
 client_script 'client/*.lua'
-server_script 'server/*.lua'
+server_scripts {
+    'server/sv_main.lua',
+    'server/*.lua'
+}
+
 shared_script 'shared.lua'
 
 exports {
