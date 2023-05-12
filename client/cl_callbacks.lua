@@ -1,4 +1,4 @@
-function Triggercallback(name, cb, ...)
+function Functions.Triggercallback(name, cb, ...)
     Callbacks[name] = cb
     TriggerServerEvent('Darrk/Server/Callback', name, ...)
 end
