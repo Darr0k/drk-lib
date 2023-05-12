@@ -5,7 +5,10 @@ author 'Darrk'
 description 'A Resources Helper By Darrk'
 version '1.0.0'
 
-client_script 'client/*.lua'
+client_script {
+    'client/cl_main.lua',
+    'client/*.lua'
+}
 server_scripts {
     'server/sv_main.lua',
     'server/*.lua'
