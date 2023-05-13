@@ -1,4 +1,4 @@
-local Functions = {}
+Functions = {}
 
 exports('GetFunctions', function()
     return Functions
